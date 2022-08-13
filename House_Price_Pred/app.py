@@ -5,7 +5,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-
 app = Flask(__name__)
 
 
@@ -35,8 +34,9 @@ def predict_page():
     year_renovated = request.form.get("yrrenov")
     city = request.form.get("city")
 
-    # return f"Test Output {no_bed_room}+{no_bath_room}+{square_feet_living}+{square_feet_lot}+{no_of_floors}+{water_front}+" \
-    #        f"{no_of_views}+{condition}+{square_feet_above}+{square_feet_basement}+{year_built}+{year_renovated}+{city}"
+    # return f"Test Output {no_bed_room}+{no_bath_room}+{square_feet_living}+{square_feet_lot}+{no_of_floors}+{
+    # water_front}+" \ f"{no_of_views}+{condition}+{square_feet_above}+{square_feet_basement}+{year_built}+{
+    # year_renovated}+{city}"
     df = pd.read_csv("data.csv")
     # print(df)
 
@@ -70,7 +70,6 @@ def predict_page():
     # creating the machine learning model
     linearmodel = LinearRegression()
     linearmodel.fit(X_train, y_train)  # training is taking place
-
 
     # predictions
     linearmodel.predict(X_test)
