@@ -120,8 +120,9 @@ def predict_page():
     # Here the linearmodel is the variable  used in 13
     my_data_price = linearmodel.predict(my_data)
     rounded_price = np.round(my_data_price, 2)
-    return f"The predicted price for the given data is :{rounded_price}"
+    # return f"The predicted price for the given data is :{rounded_price}"
     # print(f" The predicted price for the given data is :{rounded_price}")
+    return render_template("predicted.html", price=rounded_price)
 
 
 print(predict_page)
