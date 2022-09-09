@@ -69,8 +69,9 @@ def predict_page():
 
     arr = df2.to_numpy()
     prediction = model.predict(arr)
+    round_pred = np.round(float(prediction[0]), 2)
 
-    return render_template("predicted.html", price=float(prediction[0]))
+    return render_template("predicted.html", price=round_pred)
 
 
 print(predict_page)
