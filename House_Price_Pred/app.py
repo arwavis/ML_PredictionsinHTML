@@ -40,7 +40,8 @@ def predict_page():
 
     # Loading the model
 
-    os.chdir(r'C:\Users\aravindv\Documents\Github-projects\ML_PredictionsinHTML\House_Price_Pred')
+    # os.chdir(r'C:\Users\aravindv\Documents\Github-projects\ML_PredictionsinHTML\House_Price_Pred')
+    os.chdir("/Users/aravindv/Documents/Programming/Github/ML_PredictionsinHTML/House_Price_Pred")
     model = load_model(os.path.join(os.getcwd(), "housepred_model.h5"))
 
     # Prediction with reference to new dataset
