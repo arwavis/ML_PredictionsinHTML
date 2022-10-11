@@ -18,8 +18,8 @@ simplefilter("ignore", category=ConvergenceWarning)
 # from Health_Prediction.health_pred import l_reg_alg, d_alg, k_alg, r_f_alg, s_v_alg
 
 data = pd.read_csv(
-    "/Users/aravindv/Documents/Programming/Github/ML_PredictionsinHTML/Health_Prediction/Maternal Health Risk Data Set.csv")
-print(data)
+    "../Maternal Health Risk Data Set.csv")
+# print(data)
 
 # Data Processing
 # Converting categorical variables of the dataset into numerical variables - using ONE HOT ENCODING technique

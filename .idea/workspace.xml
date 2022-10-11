@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ace8e28-8fc1-4934-9223-0d1cc2bdebbd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ML_PredictionsinHTML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML_PredictionsinHTML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Health_Prediction/Lung_Cancer_Detection/L_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Health_Prediction/Lung_Cancer_Detection/L_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Health_Prediction/Maternal_Health_Risk/M_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Health_Prediction/Maternal_Health_Risk/M_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Health_Prediction/heart_attack_prediction/H_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Health_Prediction/heart_attack_prediction/H_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aravindv/Documents/Github-projects/ML_PredictionsinHTML&quot;
   }
 }</component>
   <component name="RecentsManager">
